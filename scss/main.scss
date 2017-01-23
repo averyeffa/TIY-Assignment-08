@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+body{
+  font-family: "sans-serif";
+  margin: 0;
+}
+
+#app-container{
+  position: relative;
+  background-color: #76A67F;
+}
+
+.column-container{
+  font-size: 0;
+  > * {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+  }
+}
+
+.hamburger-icon{
+	position: fixed;
+	top: 0;
+	left: 24px;
+	height: 55px;
+	width: 55px;
+	text-align: center;
+	background: #333;
+	color: #fff;
+	z-index: 1;
+	padding-top: 10px;
+	font-size: 24px;
+  font-weight: 200;
+}
+
+.arrowdown-icon,
+.tour,
+.examples,
+.pricing,
+.login,
+.help,
+.blog{
+  display: none;
+}
+
+.team{
+  color: #ccc;
+  border: 3px #ccc solid;
+  font-family: "Palatino";
+  font-size: 11px;
+  position: absolute;
+	top: 20px;
+	left: 25%;
+  padding: 12px 24px;
+  letter-spacing: 1px;
+}
+
+.section-01{
+  text-align: center;
+  margin-top: 60px;
+  background-color: #fff;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  padding-left: 10%;
+  margin-bottom: 24px;
+}
+
+.section-01 h1{
+  max-width: 430px;
+}
+
+.section-01 p{
+  max-width: 490px;
+}
+
+.members img{
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.members{
+  background-color: #fff;
+  max-width: 300px;
+  padding: 0px;
+  text-align: center;
+}
+
+.members span{
+  color: #84D882;
+  margin-bottom: 24px;
+}
+
+.members p{
+  margin-bottom: 2px;
+  font-size: 16px;
+}
+
+.section-02{
+  text-align: center;
+  color: #fff;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 24px;
+}
+
+.section-02 h1{
+  margin-bottom: 24px;
+}
+.col-xs-12 .col-sm-12 .col-md-6{
+  margin-bottom: 24px;
+}
+
+.employee-projects{
+  max-width: 590px;
+  background-color: #fff;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 24px;
+  color: #ccc;
+  font-size: 12px;
+}
+
+.employee-projects h1{
+  font-size: 16px;
+  color: #aaa;
+}
+
+.employee-projects img{
+  max-width: 590px;
+}
+
+.jumbotron{
+	background-image: url('../assets/solrod-drawingboard-background.jpg');
+	background-size: cover;
+	color: #fff;
+	position: relative;
+	min-height: 300px;
+	padding: 200px 0;
+  margin-bottom: 6px;
+}
+.u_overlay{
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .3);
+}
+
+.call-to-action{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+	background: #6E809B;
+	color: #fff;
+	border-radius: 4px;
+	padding: 30px 250px;
+  font-size: 14px;
+}
+
+.socialmedia{
+  color: #bbb;
+  font-size: 40px;
+}
+
+.socialmedia i{
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+@media screen and (min-width: 768px){
+
+  .navbar{
+    position: fixed;
+    top: 0;
+    left: 0px;
+    height: 55px;
+    width: 100%;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    z-index: 1;
+    padding: 12px 12px;
+    font-size: 24px;
+    font-weight: 200;
+  }
+
+  .hamburger-icon{
+  	display: none;
+  }
+
+  .arrowdown-icon,
+  .tour,
+  .examples,
+  .pricing,
+  .login,
+  .help,
+  .blog{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 24px;
+  }
+
+
+  .members{
+    background-color: #fff;
+    max-width: 300px;
+    padding: 0px;
+    text-align: center;
+  }
+
+
+}
