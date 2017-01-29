@@ -10,7 +10,6 @@ body {
   margin: 0; }
 
 #app-container {
-  position: relative;
   background-color: #76A67F; }
 
 .column-container {
@@ -43,17 +42,20 @@ body {
 .blog {
   display: none; }
 
-.team {
+.team button {
+  background-color: #76A67F;
   color: #ccc;
   border: 3px #ccc solid;
   font-family: "Palatino";
   font-size: 11px;
   position: absolute;
   top: 20px;
-  right: auto;
-  left: 150px;
+  left: 25%;
   padding: 12px 24px;
   letter-spacing: 1px; }
+
+.team {
+  text-align: center; }
 
 .section-01 {
   text-align: center;
@@ -98,6 +100,9 @@ body {
   margin-bottom: 2px;
   font-size: 13px; }
 
+.desktopimgs {
+  display: none; }
+
 .section-02 {
   text-align: center;
   color: #ddd;
@@ -108,9 +113,6 @@ body {
   margin-bottom: 24px; }
 
 .section-02 h1 {
-  margin-bottom: 24px; }
-
-.col-xs-12 .col-sm-12 .col-md-6 {
   margin-bottom: 24px; }
 
 .employee-projects {
@@ -172,15 +174,11 @@ body {
     position: fixed;
     top: 0;
     left: 0px;
-    height: 55px;
     width: 100%;
-    text-align: center;
     background: #000;
-    color: #fff;
+    color: #ddd;
     z-index: 1;
-    padding: 12px 12px;
-    font-size: 24px;
-    font-weight: 200; }
+    border-radius: 0px; }
 
   .hamburger-icon {
     display: none; }
@@ -194,12 +192,96 @@ body {
   .blog {
     display: inline-block;
     vertical-align: top;
-    font-size: 24px; }
+    font-size: 12px;
+    padding: 16px 12px; }
+
+  .login {
+    margin-left: 45%; }
+
+  .blog {
+    padding-right: 0px; }
+
+  .team button {
+    position: static;
+    margin-top: 100px;
+    margin-left: auto; }
+
+  .section-01 {
+    text-align: center;
+    margin-top: 60px;
+    background-color: #fff;
+    width: 86%;
+    margin-left: 7%;
+    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+    padding-left: 0; }
+
+  .section-01 h1 {
+    max-width: 100%; }
+
+  .section-01 p {
+    max-width: 70%;
+    margin-left: 15%;
+    color: #aaa; }
 
   .members {
-    background-color: #fff;
-    max-width: 300px;
-    padding: 0px;
-    text-align: center; } }
+    background-color: #76A67F;
+    max-width: 86%;
+    padding: 0;
+    text-align: center; }
+
+  .members h3 {
+    font-size: 16px; }
+
+  .members span {
+    color: #84D882; }
+
+  .members p {
+    margin-bottom: 2px;
+    font-size: 13px; }
+
+  .desktopimgs {
+    display: block;
+    position: relative; }
+
+  .office-img {
+    width: 100%;
+    margin-top: 72px;
+    border-top: 2px #fff solid; }
+
+  .mighty-img {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 35%; }
+
+  .section-02 {
+    text-align: center;
+    color: #ddd;
+    padding-top: 24px;
+    padding-bottom: 36px;
+    padding-left: 18%;
+    padding-right: 18%;
+    margin-bottom: 12px; }
+
+  .employee-projects {
+    max-width: 90%;
+    background-color: #76A67F;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 24px;
+    color: #ccc;
+    font-size: 12px; }
+
+  .call-to-action {
+    top: 35%;
+    left: 35%;
+    width: 30%; }
+
+  .socialmedia {
+    padding-left: 70%;
+    font-size: 24px; } }
 
 /*# sourceMappingURL=styles.css.map */
