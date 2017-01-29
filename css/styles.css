@@ -50,7 +50,8 @@ body {
   font-size: 11px;
   position: absolute;
   top: 20px;
-  left: 25%;
+  right: auto;
+  left: 150px;
   padding: 12px 24px;
   letter-spacing: 1px; }
 
@@ -70,26 +71,36 @@ body {
   max-width: 490px; }
 
 .members img {
-  width: 100%;
-  margin-bottom: 24px; }
+  width: 100%; }
+
+.thumbnail {
+  padding: 0;
+  border: 0; }
+
+.caption {
+  padding: 0;
+  border: 0;
+  background-color: #fff; }
 
 .members {
-  background-color: #fff;
+  background-color: #76A67F;
   max-width: 300px;
-  padding: 0px;
+  padding: 0;
   text-align: center; }
 
+.members h3 {
+  font-size: 16px; }
+
 .members span {
-  color: #84D882;
-  margin-bottom: 24px; }
+  color: #84D882; }
 
 .members p {
   margin-bottom: 2px;
-  font-size: 16px; }
+  font-size: 13px; }
 
 .section-02 {
   text-align: center;
-  color: #fff;
+  color: #ddd;
   padding-top: 24px;
   padding-bottom: 48px;
   padding-left: 10%;
@@ -104,7 +115,7 @@ body {
 
 .employee-projects {
   max-width: 590px;
-  background-color: #fff;
+  background-color: #76A67F;
   text-align: center;
   padding-left: 0;
   padding-right: 0;
@@ -124,8 +135,7 @@ body {
   background-size: cover;
   color: #fff;
   position: relative;
-  min-height: 300px;
-  padding: 200px 0;
+  min-height: 250px;
   margin-bottom: 6px; }
 
 .u_overlay {
@@ -138,12 +148,14 @@ body {
 
 .call-to-action {
   position: absolute;
-  top: 40%;
-  left: 10%;
+  top: 35%;
+  left: 5%;
+  width: 90%;
+  padding: 32px 0;
   background: #6E809B;
+  text-align: center;
   color: #fff;
   border-radius: 4px;
-  padding: 30px 250px;
   font-size: 14px; }
 
 .socialmedia {
